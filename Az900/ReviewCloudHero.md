@@ -86,4 +86,4 @@
   
   - Datacenters separados fisicamente dentro da mesma região, como se a região fosse "Brazilsouth" e tivesse um datacenter no Rio de janeiro e um em São Paulo.
 
-  - ![Zonas](./Zones.png)
+    ![Zonas](./Zones.png)
