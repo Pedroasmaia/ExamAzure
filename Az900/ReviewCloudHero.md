@@ -7,9 +7,9 @@
 1. [Conceitos de nuvem](#conceitos-de-nuvem) (20%-25%)
 2. [Principais serviços](#principais-serviços)(15%-20%)
 3. [Principais soluções e ferramentas de gerenciamento](#principais-soluções-e-ferramentas-de-gerenciamento)(10%-15%)
-4. Segurança Geral e os recursos de segurança da rede (10%-15%)
-5. Recursos de Identidade, governança privacidade e conformidade(15%-20%)
-6. Gerenciamento de custo e acordos de nivel de serviço do Azure (10-15%)
+4. [Segurança Geral e os recursos de segurança da rede](#segurança-geral-e-os-recursos-de-segurança-da-rede) (10%-15%)
+5. [Recursos de Identidade, governança privacidade e conformidade](#recursos-de-identidade-governança-privacidade-e-conformidade)(15%-20%)
+6. [Gerenciamento de custo e acordos de nivel de serviço do Azure](#) (10-15%)
 
 ## Conceitos de Nuvem
 
@@ -137,3 +137,65 @@
   -  Azure Monitor é uma plataforma de coleta e analise de logs e métricas do ambiente Azure e Local
 - **Integridade do Serviço**
   - Uma plataforma para ajudar com eventos que podem gerar impactos no serviço, como manutenção planejada ou instabilidade do serviço 
+
+## Segurança Geral e os recursos de segurança da rede
+
+- **Central de Segurança do Azure/Microsoft Defender para Nuvem**
+
+  - É um serviço de monitoramento que da visibilidade a segurança em todos os serviços, tanto no Azure, quanto localmente, ele pode:
+    - Monitorar as configurações de segurança das cargas de trabalho.
+    - Aplicar as configurações obrigatoria a novos recursos.
+    - Recomendar configurações basicas de segurança da rede e recursos.
+    - É possivel trazer a % de segurança de acordo com alguns complaice.
+
+- **Azure Sentinel**
+  - Sistema SIEM(Centralizador de Log's)
+  - Permite coletar dados de nuvem em escala.
+  - Detectar ameaças não detectadas anteriormente.
+  - Investigar ameaças com inteligencia artificial.
+  - Responder a incidentes rapidamente.
+  - Integra com varias nuvens.
+
+- **Azure Key Valut**
+  - É um serviço que centraliza o armazenamento de chaves e segredos em um só lugar.
+
+- **Defesa em profundidade**
+  - É um conjunto de camadas de proteção com os dados no centro.
+  - Segurança fisica é a primeira camada para proteger o hardware.
+    ![imagem](https://media-exp2.licdn.com/dms/image/C4E12AQHATl_l9LPf_A/article-cover_image-shrink_423_752/0/1582250691716?e=1663200000&v=beta&t=fIozUC4ovBR9WORyX4LVgmLTmPnZWFey3VrNfqiZDHM)
+
+- **Firewall do Azure**
+  - Conceitos de Firewall comum
+
+- **Ataque DDOS**
+  - É o ataque mais comum entre os recursos Azure, que é o de negação de serviço.
+
+- **Grupo de Segurança de Rede do Azure**
+  - Permite filtrar tráfego de rede proveniente dos recursos 
+
+
+## Recursos de Identidade, governança privacidade e conformidade:
+
+- **O Que é MFA**
+  
+  - Autenticação de Multifator, é um segundo elemento, fora a senha, que é realmente o usuario que esta acessando.
+  - Esses elementos se enquandram em 3 categorias:
+    - Algo que o usuario sabe: Email e senha.
+    - Algo que o usuario tem: Um código enviado para o telefone.
+    - Algo que o usuario é: Biometrica ou detecção facial.
+
+- **Acesso condicional**
+  - É uma ferramenta do Azure AD que permite ou nega o acesso ao recurso com base em sinais de identidade. 
+  - Como bloquear com a condição de ele esta no escritorio.
+
+- **Microsoft Active Directory**
+  - Serviço de identidade dos usuários
+  - Logon unico em varias plataformas
+  
+- **Conceito de RBAC**
+  - O minimo de privilegio possivel para o colaborador trabalhar.
+
+- **Locks**
+  - Existem 2 tipos o de bloquear exclus~pes e o de somente leitura.
+
+## Gerenciamento de custo e acordos de nivel de serviço do Azure
