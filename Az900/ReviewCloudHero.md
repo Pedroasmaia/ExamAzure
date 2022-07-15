@@ -123,3 +123,17 @@
     - *Azure Disks:* Volumes de armazenamento em nível de bloco para VMs do Azure.
 
 ## Principais soluções e ferramentas de gerenciamento
+
+- **Inteligência e Internet das Coisas**
+  - Sensores ambientais
+  - Código de barras, QRcode
+  - Sensor de proximidade e localização
+  - Sensores de infravermelho, de luz e cor, ultravioleta e mais.
+
+- **Azure PowerShell ou Azure CLI**
+  - Automatização de rotinas, provisionamento.
+
+- **Azure Monitor**
+  -  Azure Monitor é uma plataforma de coleta e analise de logs e métricas do ambiente Azure e Local
+- **Integridade do Serviço**
+  - Uma plataforma para ajudar com eventos que podem gerar impactos no serviço, como manutenção planejada ou instabilidade do serviço 
