@@ -9,7 +9,7 @@
 3. [Principais soluções e ferramentas de gerenciamento](#principais-soluções-e-ferramentas-de-gerenciamento)(10%-15%)
 4. [Segurança Geral e os recursos de segurança da rede](#segurança-geral-e-os-recursos-de-segurança-da-rede) (10%-15%)
 5. [Recursos de Identidade, governança privacidade e conformidade](#recursos-de-identidade-governança-privacidade-e-conformidade)(15%-20%)
-6. [Gerenciamento de custo e acordos de nivel de serviço do Azure](#) (10-15%)
+6. [Gerenciamento de custo e acordos de nivel de serviço do Azure](#gerenciamento-de-custo-e-acordos-de-nivel-de-serviço-do-azure) (10-15%)
 
 ## Conceitos de Nuvem
 
@@ -173,7 +173,6 @@
 - **Grupo de Segurança de Rede do Azure**
   - Permite filtrar tráfego de rede proveniente dos recursos 
 
-
 ## Recursos de Identidade, governança privacidade e conformidade:
 
 - **O Que é MFA**
@@ -199,3 +198,12 @@
   - Existem 2 tipos o de bloquear exclus~pes e o de somente leitura.
 
 ## Gerenciamento de custo e acordos de nivel de serviço do Azure
+
+- **Calculadora da Azure**
+  - Calcula o preço do recurso que vai gastar.
+- **Tipos de assinatura**
+  - Assinatura gratuitra.
+  - Pago pelo Uso (Pay-as-Ago)
+  - Ofertas de Membro
+
+- **Assistente do Azure para monitorar gastos**
